@@ -1,0 +1,153 @@
+
+.card-productsaudi:hover{
+    background-color: rgb(162, 165, 201);
+    transform: scale(1.1);
+}
+.card-productsbentley:hover{
+    background-color: rgb(162, 165, 201);
+    transform: scale(1.1);
+}
+.card-productsvolkswagen:hover{
+    background-color: rgb(162, 165, 201);
+    transform: scale(1.1);
+}
+.card-productsporsche:hover{
+    background-color: rgb(162, 165, 201);
+    transform: scale(1.1);
+}
+.card-productslamborghini:hover{
+    background-color: rgb(162, 165, 201);
+    transform: scale(1.1);
+}
+  .card-productsaudi{
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
+    max-width: 15rem;
+    background-image:  url("../images/audilogo.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-productsbentley{
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
+    max-width: 15rem;
+    background-image:  url("../images/bentleylogo.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-productsvolkswagen{
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
+    max-width: 15rem;
+    background-image:  url("../images/volkswagenlogo.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-productsporsche{
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
+    max-width: 15rem;
+    background-image:  url("../images/porschelogo.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-productslamborghini{
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
+    max-width: 15rem;
+    background-image: url("../images/lambologo.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btnhm{
+    margin-top: 300px;
+}
+
+.invcntr{
+    background-color: #596988;
+    height: auto;
+  }
+  .brndcntr{
+    background-color: #596988;
+    height: 100vh;
+  }
+  .hstry{
+    background-color: #596988;
+    height: 100vh;
+  }
+
+
+  
+  .usercrd {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, #ffffff, #e0e0e0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    height: 350px;
+  }
+
+  .cnfrmcntr{
+    width: 1000px !important;
+  }
+
+  /* Add this CSS to your component or in a separate stylesheet */
+
+.table-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-container table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+  }
+  
+  .table-container th, .table-container td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-container tbody tr:last-child {
+    border-bottom: none;
+  }
+  

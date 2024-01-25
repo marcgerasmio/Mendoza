@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  background-color: #1E3B70;
+}
+.bg-container{
+  background-color: #596988;
+}
+.card-container {
+  width: 400px;
+  padding: 30px 40px;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+}
+
+.user-icon {
+  margin: 0 auto;
+  display: block;
+  color: #1E3B70;
+  padding: 0px;
+  width: 60px;
+  height: 30px;
+}
+
+.title {
+  text-align: center;
+  color: #1E3B70;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  border-radius: 10px !important;
+  border-color: #1E3B70;
+}
+
+.submit-button {
+  background: #3c78d8 !important;
+  height: 55px;
+}
+.sbmbtn{
+ background: #3c78d8 ;
+  color: white;
+  height: 45 px; 
+}
+
+.sbmbtn:active,
+.sbmbtn:focus {
+  background: #3c78d8 !important;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar{
+  background-color:#19305c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-content{
+  color: white !important;
+}
+
+.navbar .custom-dropdown .nav-link {
+  color: white !important;
+}
+
+.navbar .custom-dropdown .dropdown-menu a.dropdown-item {
+  color: black !important;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 80%;
+  background-color: white;
+  padding: 20px;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+}
+
+.card {
+  max-width: calc(33.333% - 40px);
+  margin-bottom:20px;
+}
+
+.white-toggler {
+  border-color: white;
+}
+
+.white-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }

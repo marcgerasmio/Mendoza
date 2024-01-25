@@ -1,0 +1,106 @@
+.nav-logo{
+    width: 90px;
+    height: 80px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-products{
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-contents{
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+
+.div-underline{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 120px;
+    background-color: red;
+}
+.crdcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+.invcntr{
+  background-color: #596988;
+}
+
+.dealercrd {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, #ffffff, #e0e0e0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  .dealerinvcrd {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, #ffffff, #e0e0e0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  .bgcrd{
+    background-image: url('../images/bg.jpg');
+    background-size: contain;
+  }
+  
+  .dealercrd img {
+    border-radius: 10px;
+    margin-bottom: 7px;
+  }
+  
+  .dealercrd h3, .dealercrd h5, .dealercrd p {
+    color: #2c3e50;
+    
+  }
+  
+
+  
+  .dealercrd button:hover {
+    background-color: #2980b9;
+    border-color: white;
+    
+  }
+  
+.dlrbtn{
+    border-radius: 5px;
+    background-color: #19305c;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+.fnt{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+  text-align: center !important;
+}
+td{
+  text-align: center !important;
+}
